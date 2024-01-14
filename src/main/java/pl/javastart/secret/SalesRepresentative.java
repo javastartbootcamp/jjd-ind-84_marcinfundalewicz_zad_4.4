@@ -1,11 +1,10 @@
-package pl.javastart.task;
+package pl.javastart.secret;
+
+import pl.javastart.secret.Offer;
+import pl.javastart.task.Config;
 
 public class SalesRepresentative {
-    Config config;
-
-    public SalesRepresentative() {
-        this.config = new Config();
-    }
+    Config config = new Config();
 
     public Offer createLoanOffer(int requestedAmount, int earnings) {
         Offer offer = new Offer();
