@@ -1,8 +1,5 @@
 package pl.javastart.secret;
 
-import pl.javastart.secret.Offer;
-import pl.javastart.task.Config;
-
 public class SalesRepresentative {
     Config config = new Config();
 
